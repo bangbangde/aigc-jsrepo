@@ -28,9 +28,5 @@ export default defineConfig({
                 registryDependencies: ['useRequest'], // 无法自动识别 vue 依赖，需要手动指定
             },
         ],
-    },
-    // configure where stuff comes from here
-    registries: [],
-    // configure were stuff goes here
-    paths: {},
+    }
 });
