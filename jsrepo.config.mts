@@ -23,7 +23,7 @@ export default defineConfig({
                 name: 'WelcomBlock',
                 type: 'component',
                 files: [{
-                    path: 'src/component/WelcomBlock.vue',
+                    path: 'src/component/WelcomeBlock.vue',
                 }],
                 registryDependencies: ['useRequest'], // 无法自动识别 vue 依赖，需要手动指定
             },
