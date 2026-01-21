@@ -20,7 +20,7 @@ export default defineConfig({
                 }]
             },
             {
-                name: 'WelcomBlock',
+                name: 'WelcomeBlock',
                 type: 'component',
                 files: [{
                     path: 'src/component/WelcomeBlock.vue',
