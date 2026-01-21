@@ -4,6 +4,7 @@
 	"description": "",
 	"main": "index.js",
 	"scripts": {
+		"dev": "vite",
 		"build": "jsrepo build"
 	},
 	"keywords": [],
@@ -11,6 +12,11 @@
 	"license": "ISC",
 	"packageManager": "pnpm@10.27.0",
 	"devDependencies": {
-		"jsrepo": "^3.1.0"
+		"jsrepo": "^3.1.0",
+		"vite": "^7.3.1",
+		"@vitejs/plugin-vue": "^6.0.3"
+	},
+	"dependencies": {
+		"vue": "^3.5.27"
 	}
 }
