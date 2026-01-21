@@ -16,9 +16,16 @@ export default defineConfig({
                 name: 'useRequest',
                 type: 'hook',
                 files: [{
-                    path: 'src/hooks/useRequest.js',
+                    path: 'src/hook/useRequest.js',
                 }]
-            }
+            },
+            {
+                name: 'WelcomBlock',
+                type: 'component',
+                files: [{
+                    path: 'src/component/WelcomBlock.vue',
+                }]
+            },
         ],
     },
     // configure where stuff comes from here
