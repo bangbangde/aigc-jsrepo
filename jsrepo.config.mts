@@ -24,7 +24,8 @@ export default defineConfig({
                 type: 'component',
                 files: [{
                     path: 'src/component/WelcomBlock.vue',
-                }]
+                }],
+                dependencies: ['useRequest'], // 无法自动识别 vue 依赖，需要手动指定
             },
         ],
     },
