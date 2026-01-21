@@ -29,8 +29,8 @@ export default defineConfig({
   // configure were stuff goes here
   paths: {
     lib: './src/lib',
-	hook: './src/hook',
-	component: './src/component'
+	  hook: './src/hook',
+	  component: './src/component'
   },
 });
 ```
