@@ -6,12 +6,19 @@ export default defineConfig({
         outputs: [repository()],
         items: [
             {
-                name: 'util',
+                name: 'utils',
                 type: 'lib',
                 files: [{
-                    path: 'src/utils.js',
+                    path: 'src/lib/utils.js',
                 }]
             },
+            {
+                name: 'useRequest',
+                type: 'hook',
+                files: [{
+                    path: 'src/hooks/useRequest.js',
+                }]
+            }
         ],
     },
     // configure where stuff comes from here
